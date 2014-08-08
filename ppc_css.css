@@ -3,15 +3,14 @@ body{
 }
 #section-top{
 	width:960px;
-	height: 140px;
+	height: 130px;
 	background-color: #F4F4F4;
 	display: block;
 }
 #nav-bar{
 	width: 960px;
 	height: 30px;
-	background-color: #E8ECF0;
-	border: grey;
+	background-image: url("navBarBackground.png");
 }
 #home, #market-segments, #services, #products, #promotions, #market-area, #market-info{
 	font-family: arial;
@@ -21,41 +20,45 @@ body{
 	padding-left: 15px;
 	padding-right: 15px;
 	border-right: 2px solid #666666;
-	font-size: 85%;
+	font-size: 70%;
 }
 
 /*Middle-Section*/
-.heading{
-		width:445px;
-		height: 30px;
-		background-color: yellow;
-		font-weight: bold;
-		padding: 5px 0px 0px 5px;
-	}
 #section-bottom{
-	background-color: black;
+	background-image: url("ppcBodyBackground.png");
 	width: 960px;
 	height: 960px;
 }
+	#section-bottom p{
+		font-size: 70%;
+		margin-left: 20px;
+		color: black;
+	}
 #store-picture{
-	width: 420px;
-	height:280px;
+	width: 350px;
+	height:250px;
 	display: inline-block;
 	margin-top: 15px;
 	margin-left: 40px;
 }
 #about{
-	width: 450px;
-	height: 280px;
+	width: 530px;
+	height: 250px;
 	display: inline-block;
-	background-color: #444444;
+	background-image: url("aboutBackground.png");
 	margin-left: 25px;
 	margin-top: 15px;
 	vertical-align: top;
 }
+	#about #heading{
+		font-size: 80%;
+		width:520px;
+		height: 20px;
+		background-image: url("subheadingBackground.png");
+		font-weight: bold;
+		padding: 10px 0px 0px 10px;
+	}
 	#about p{
-		font-size: 70%;
-		margin-left: 20px;
 		color: white;
 	}
 	#about h4{
@@ -66,22 +69,42 @@ body{
 		vertical-align: top;
 		margin-left: 20px;
 	}
-
+/*Middle Section*/
+#section-middle{
+	height: 30px;
+	width: 960px;
+	display: block;
+}
+	#section-middle img{
+		margin-left:50px;
+	}
+	#section-middle #middle-text{
+		color: #91995F;
+		font-size: 75%;
+	}
 /*Bottom 4 Sections*/
+.heading-bottom{
+	font-size: 75%;
+	width:195px;
+	height: 20px;
+	background-image: url("subheadingBackground.png");
+	font-weight: bold;
+	padding:5px 0px 0px 15px;
+}
+.read-more-button{
+	padding-left: 100px;
+}
+#automotive, #commercial, #industrial, #diesel-exhaust-fluid{
+	vertical-align: top;
+	width: 210px;
+	height: 260px;
+	margin-left: 15px;
+	display:inline-block;
+	background-color: #FEFAEE;
+}
 #automotive{
-	width: 250px;
-	display:inline-block;
+	margin-left: 40px;
 }
-#commercial{
-	width: 250px;
-	display:inline-block;
+#commercial p{
+	padding-bottom: 15px;
 }
-#industrial{
-	width: 250px;
-	display:inline-block;
-}
-#diesel-exhaust-fluid{
-	width: 250px;
-	display:inline-block;
-}
-
