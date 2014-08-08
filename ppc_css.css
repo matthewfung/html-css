@@ -1,10 +1,11 @@
 body{
-	background-color: black;
+	font-family: arial;
 }
 #section-top{
 	width:960px;
 	height: 140px;
 	background-color: #F4F4F4;
+	display: block;
 }
 #nav-bar{
 	width: 960px;
@@ -22,3 +23,65 @@ body{
 	border-right: 2px solid #666666;
 	font-size: 85%;
 }
+
+/*Middle-Section*/
+.heading{
+		width:445px;
+		height: 30px;
+		background-color: yellow;
+		font-weight: bold;
+		padding: 5px 0px 0px 5px;
+	}
+#section-bottom{
+	background-color: black;
+	width: 960px;
+	height: 960px;
+}
+#store-picture{
+	width: 420px;
+	height:280px;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+#about{
+	width: 450px;
+	height: 280px;
+	display: inline-block;
+	background-color: #444444;
+	margin-left: 25px;
+	margin-top: 15px;
+	vertical-align: top;
+}
+	#about p{
+		font-size: 70%;
+		margin-left: 20px;
+		color: white;
+	}
+	#about h4{
+		margin: 15px 0px 0px 20px;
+		color: white;
+	}
+	#about #subheading{
+		vertical-align: top;
+		margin-left: 20px;
+	}
+
+/*Bottom 4 Sections*/
+#automotive{
+	width: 250px;
+	display:inline-block;
+}
+#commercial{
+	width: 250px;
+	display:inline-block;
+}
+#industrial{
+	width: 250px;
+	display:inline-block;
+}
+#diesel-exhaust-fluid{
+	width: 250px;
+	display:inline-block;
+}
+
